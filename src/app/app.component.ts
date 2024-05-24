@@ -6,7 +6,7 @@ import { ListeComponent } from "./liste/liste.component";
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.scss',
-    imports: [ ListeComponent]
+    imports: [ListeComponent]
 })
 export class AppComponent {
 

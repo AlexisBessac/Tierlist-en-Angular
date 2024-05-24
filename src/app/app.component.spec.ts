@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'tierlist' title`, () => {
+  it(`should have the 'tier-list-dev1-24' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('tierlist');
+    expect(app.title).toEqual('tier-list-dev1-24');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, tierlist');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, tier-list-dev1-24');
   });
 });
